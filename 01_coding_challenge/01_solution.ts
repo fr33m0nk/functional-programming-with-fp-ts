@@ -2,8 +2,9 @@
 //you have to set their types and also can change their names.
 
 type Status = 'SUCCESS' | 'FAILED'
+type Score = number
 
-type ShowResult = (status: Status, score: number) => void
+type ShowResult = (status: Status, score: Score) => void
 const showResult: ShowResult = (status, score) =>
   (status === 'SUCCESS' && score === 5) ?
     console.log('Great, you got the highest possible score') :
