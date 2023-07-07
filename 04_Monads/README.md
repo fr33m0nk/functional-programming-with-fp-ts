@@ -10,3 +10,14 @@
 - Functors define `map` function
 
 ![img.png](types.png)
+
+## Few good rules
+
+Monads help us be more explicit about what a function will do and return. For example:
+- If a function has an `effect`, it’s wrapped in an `IO monad`
+- If a function is `async`, it’s wrapped in an `Async` or `Task` monad (both these names and others are used).
+- If the function has a `failure` path, an `Either` monad will be used.
+- If some `value might not exist` inside the function, `Option` monad will be used.
+- If a function does `two or more of the things mentioned` above, we’ll use `monad transformers`.
+
+
