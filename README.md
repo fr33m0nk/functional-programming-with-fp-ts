@@ -1,12 +1,14 @@
 # functional-programming-with-fp-ts
 
-To install dependencies:
+## Problems and solutions from [Educative.io's Using fp-ts for Functional Programming in TypeScript](https://www.educative.io/courses/using-fp-ts-for-functional-programming-in-typescript) course
+
+### To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+### To run:
 
 ```bash
 bun run index.ts
