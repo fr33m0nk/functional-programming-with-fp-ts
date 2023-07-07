@@ -19,5 +19,6 @@ Monads help us be more explicit about what a function will do and return. For ex
 - If the function has a `failure` path, an `Either` monad will be used.
 - If some `value might not exist` inside the function, `Option` monad will be used.
 - If a function does `two or more of the things mentioned` above, we’ll use `monad transformers`.
+  - `Monad transformers` are basically monads stacked on top of each other, combining all the useful qualities of the underlying elements. 
 
 
