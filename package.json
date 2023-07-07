@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "fp-ts": "^2.16.0"
+    "fp-ts": "^2.16.0",
+    "newtype-ts": "^0.3.5"
   }
 }
