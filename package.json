@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "fp-ts": "^2.16.0",
+    "io-ts": "^2.2.20",
     "monocle-ts": "^2.3.13",
     "newtype-ts": "^0.3.5"
   }
